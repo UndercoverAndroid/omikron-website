@@ -1,0 +1,58 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    border: 0px;
+    box-sizing: border-box;    
+}
+
+.wrap{
+    margin-top: 200px;
+    height: 500px;
+    width: 100%;    
+}
+.mainDiv{
+    position: relative;
+    display: inline-block;
+    width: 50%;
+    height: 500px;
+    overflow: auto;
+    white-space: nowrap;
+}
+
+.diss{
+    position: relative;
+    display: inline-block;
+    width: 24%;
+    height: 500px;
+    background-color: #fff;
+    z-index: 50;
+}
+
+.border{
+    position: fixed;
+    display: inline-block;
+    width:35px;
+    height: 500px;
+    z-index: 50;
+}
+
+#leftGR{
+    left: 24%;
+    background-image: linear-gradient(to left, rgba(255,0,0,0), rgba(0,0,0,1));
+}
+
+#rightGR{
+    right: 25.4%;
+    background-image: linear-gradient(to right, rgba(255,0,0,0), rgba(0,0,0,1));
+
+}
+
+.pics{
+    position: relative;
+    display: inline-block;
+    width:250px;
+    z-index: 5;
+    margin-left:20px; 
+
+}
+
